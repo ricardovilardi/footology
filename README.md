@@ -15,7 +15,7 @@ Presentación navegable de 14 slides (HTML estático, 16:9) para que el equipo c
 ## Estructura
 
 - `index.html`: contenido de las 14 slides
-- `styles.css`: sistema visual (azul noche, coral, crema, rosa pálido, azul claro; Young Serif + Poppins)
+- `styles.css`: sistema visual (azul noche, coral, crema, rosa pálido, azul claro; Hepta Slab para titulares y Forma DJR para texto, con Inter Tight como respaldo web)
 - `deck.js`: navegación
 - `images/`: fotos por slide (`slide-01.jpg`, `slide-06-congreso.jpg`…). Para cambiar una foto, sustituye el archivo con el mismo nombre.
 - `assets/`: logos y textura de huella

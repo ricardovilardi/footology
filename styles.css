@@ -1,7 +1,7 @@
 :root{
   --navy:#1C1A63; --coral:#E0506E; --cream:#FFF1C9; --pink:#FFF4F4; --blue:#8EC3EE;
   --ink:#1C1A63; --muted:rgba(28,26,99,.68);
-  --serif:"Young Serif", Georgia, serif; --sans:"Poppins", system-ui, sans-serif;
+  --serif:"Hepta Slab", Georgia, serif; --sans:"Forma DJR Text","Forma DJR","Inter Tight", system-ui, sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%;background:#0f0e3a;overflow:hidden}
@@ -217,3 +217,5 @@ body.overview .slide.active{outline:20px solid var(--coral)}
 .matrix{margin-top:36px}
 .bar{grid-template-columns:260px 1fr 170px}
 .b-val{white-space:nowrap}
+.pimg{max-height:345px}
+.h-lg{max-width:1320px}
