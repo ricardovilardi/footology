@@ -26,8 +26,8 @@ body{font-family:var(--sans);color:var(--ink);-webkit-font-smoothing:antialiased
 
 /* fingerprint texture, never over photos */
 .tex::before{content:"";position:absolute;width:1500px;height:1700px;right:-520px;top:-420px;
-  background:url(assets/fp-navy.svg) center/contain no-repeat;opacity:.06;pointer-events:none;transform:rotate(-14deg)}
-.dark.tex::before{background-image:url(assets/fp-cream.svg);opacity:.07}
+  background:url(assets/shape-navy.svg) center/contain no-repeat;opacity:.06;pointer-events:none;transform:rotate(-14deg)}
+.dark.tex::before{background-image:url(assets/shape-cream.svg);opacity:.07}
 .slide > *{position:relative}
 
 /* chrome injected by JS */
@@ -228,3 +228,10 @@ body.overview .slide.active{outline:20px solid var(--coral)}
 .rev .services{margin-top:28px}
 .rev .services li{padding:9px 0}
 .rev .fv-logo{margin-bottom:22px}
+/* Fondo crema pastel + huella oficial como textura muy sutil */
+:root{--cream-bg:#FFFAEB}
+.cream{background:var(--cream-bg)}
+.hub-ring{background:var(--cream-bg)}
+.tex::before{width:620px;height:1400px;right:-60px;top:-260px;
+  background:url(assets/shape-navy.svg) center/contain no-repeat;opacity:.025;transform:rotate(-18deg)}
+.dark.tex::before{background-image:url(assets/shape-cream.svg);opacity:.03}
