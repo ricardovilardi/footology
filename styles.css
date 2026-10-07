@@ -238,3 +238,4 @@ body.overview .slide.active{outline:20px solid var(--coral)}
 /* Huella completa dentro de la slide, lejos de las fotos */
 .tex::before{width:340px;height:760px;top:70px;right:110px;left:auto;transform:rotate(-12deg)}
 .tex.tex-l::before{right:auto;left:150px;transform:rotate(12deg)}
+.tex::before{top:150px}
