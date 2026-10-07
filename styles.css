@@ -232,10 +232,6 @@ body.overview .slide.active{outline:20px solid var(--coral)}
 :root{--cream-bg:#FFFAEB}
 .cream{background:var(--cream-bg)}
 .hub-ring{background:var(--cream-bg)}
-.tex::before{width:620px;height:1400px;right:-60px;top:-260px;
+.tex::before{width:620px;height:1400px;right:-60px;top:-40px;
   background:url(assets/shape-navy.svg) center/contain no-repeat;opacity:.025;transform:rotate(-18deg)}
 .dark.tex::before{background-image:url(assets/shape-cream.svg);opacity:.03}
-/* Huella completa dentro de la slide, lejos de las fotos */
-.tex::before{width:340px;height:760px;top:70px;right:110px;left:auto;transform:rotate(-12deg)}
-.tex.tex-l::before{right:auto;left:150px;transform:rotate(12deg)}
-.tex::before{top:150px}
