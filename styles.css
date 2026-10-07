@@ -241,3 +241,4 @@ body.overview .slide.active{outline:20px solid var(--coral)}
 body.overview .deck{overflow:visible}
 body.overview .stage{position:static}
 @media print{.stage{position:static}}
+.s-cover .organiza{bottom:16px}
