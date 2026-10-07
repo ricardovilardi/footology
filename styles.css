@@ -219,3 +219,12 @@ body.overview .slide.active{outline:20px solid var(--coral)}
 .b-val{white-space:nowrap}
 .pimg{max-height:345px}
 .h-lg{max-width:1320px}
+/* Feria Valencia logo */
+.organiza{display:flex;align-items:center;gap:16px}
+.organiza img{height:44px;width:auto}
+.fv-logo{display:block;height:52px;margin-bottom:28px}
+.side-logo.fv{height:52px;margin-bottom:0}
+.rev .h-lg{font-size:50px}
+.rev .services{margin-top:28px}
+.rev .services li{padding:9px 0}
+.rev .fv-logo{margin-bottom:22px}
