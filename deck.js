@@ -25,7 +25,7 @@
 
   function fit() {
     const k = Math.min(innerWidth / 1600, innerHeight / 900);
-    stage.style.transform = `scale(${k})`;
+    stage.style.transform = `translate(-50%, -50%) scale(${k})`;
   }
 
   function go(n, push = true) {

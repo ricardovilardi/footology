@@ -235,3 +235,9 @@ body.overview .slide.active{outline:20px solid var(--coral)}
 .tex::before{width:620px;height:1400px;right:-60px;top:-40px;
   background:url(assets/shape-navy.svg) center/contain no-repeat;opacity:.025;transform:rotate(-18deg)}
 .dark.tex::before{background-image:url(assets/shape-cream.svg);opacity:.03}
+/* Centrado robusto fuera de pantalla completa */
+.deck{display:block;overflow:hidden}
+.stage{position:absolute;left:50%;top:50%;transform-origin:50% 50%}
+body.overview .deck{overflow:visible}
+body.overview .stage{position:static}
+@media print{.stage{position:static}}
