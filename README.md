@@ -1,6 +1,6 @@
-# Footology × Feria Valencia — Dossier de patrocinio
+# Footology × Feria Valencia — Propuesta de producto
 
-Presentación navegable de 14 slides (HTML estático, 16:9) para que el equipo comercial de Feria Valencia presente Footology a posibles patrocinadores.
+Presentación navegable de 14 slides (HTML estático, 16:9): propuesta de Footology, comité científico boutique en salud del pie, como producto para que Feria Valencia lo comercialice y explote dentro de un gran evento.
 
 ## Navegación
 
