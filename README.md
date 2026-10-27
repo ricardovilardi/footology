@@ -25,3 +25,10 @@ Presentación navegable de 14 slides (HTML estático, 16:9): propuesta de Footol
 Los datos sin confirmar aparecen entre corchetes en coral (`.tbc`): fechas, pabellón, cifras de visitantes, titulaciones, fuentes de mercado, contactos y foto real del recinto.
 
 Para verla en local: `python3 -m http.server` y abre http://localhost:8000.
+
+## PDF
+
+- `Footology-propuesta-Feria-Valencia.pdf`: texto vectorial y seleccionable (~28 MB).
+- `Footology-propuesta-Feria-Valencia-ligero.pdf`: páginas en imagen 1920×1080 (~4 MB), para enviar por email.
+
+Para regenerarlo: abrir la presentación en Chrome → Imprimir → Guardar como PDF (márgenes: ninguno).
